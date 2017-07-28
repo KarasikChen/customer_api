@@ -1,4 +1,4 @@
-class ItemsController < ProtectedController
+class ItemsController < ApplicationController
   before_action :set_item, only: [:update, :destroy]
 
   def index
